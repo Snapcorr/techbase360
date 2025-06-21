@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Добавлены новые метатеги -->
     <meta name="robots" content="index, follow">
     <meta name="google-site-verification" content="db309c714acccbab" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,26 +11,26 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     
-    <title>TechBase360 — Логистический комплекс в Воскресенске | Производственно-складской комплекс</title>
+    <title>VSKbase — Логистический комплекс в Воскресенске | Производственно-складской комплекс</title>
     <meta name="description" content="Логистический комплекс в Воскресенске. Продажа промбазы 2020 м²: производственные помещения, складские площади, офисный модуль. Готовые коммуникации, охраняемая территория.">
-    <meta name="keywords" content="логистический комплекс Воскресенск, промбаза Воскресенск, купить склад, производственные помещения, TechBase360, складские помещения Воскресенск, аренда склада">
+    <meta name="keywords" content="логистический комплекс Воскресенск, промбаза Воскресенск, купить склад, производственные помещения, VSKbase, складские помещения Воскресенск, аренда склада">
     
     <!-- OpenGraph / Social Media Meta -->
-    <meta property="og:title" content="TechBase360 — Логистический комплекс в Воскресенске">
+    <meta property="og:title" content="VSKbase — Логистический комплекс в Воскресенске">
     <meta property="og:description" content="Продажа промбазы 2020 м² с производственными и складскими помещениями.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://techbase360.ru/">
-    <meta property="og:image" content="https://techbase360.ru/images/og-image.jpg">
+    <meta property="og:url" content="https://vskbase.ru/">
+    <meta property="og:image" content="https://vskbase.ru/images/og-image.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:site_name" content="TechBase360">
+    <meta property="og:site_name" content="VSKbase">
     <meta property="og:locale" content="ru_RU">
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="TechBase360 — Логистический комплекс в Воскресенске">
+    <meta name="twitter:title" content="VSKbase — Логистический комплекс в Воскресенске">
     <meta name="twitter:description" content="Производственно-складской комплекс с готовыми коммуникациями">
-    <meta name="twitter:image" content="https://techbase360.ru/images/twitter-card.jpg">
+    <meta name="twitter:image" content="https://vskbase.ru/images/twitter-card.jpg">
     
     <!-- Favicon и манифест -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -45,7 +46,7 @@
     <link rel="preload" href="/images/header-bg.jpg" as="image" media="(min-width: 768px)">
     
     <!-- Каноническая ссылка -->
-    <link rel="canonical" href="https://techbase360.ru/">
+    <link rel="canonical" href="https://vskbase.ru/">
     
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -54,8 +55,8 @@
       "@type": "CommercialProperty",
       "name": "Логистический комплекс в Воскресенске",
       "description": "Производственно-складской комплекс класса B+ с офисным модулем и охраняемой территорией",
-      "image": "https://techbase360.ru/images/og-image.jpg",
-      "url": "https://techbase360.ru/",
+      "image": "https://vskbase.ru/images/og-image.jpg",
+      "url": "https://vskbase.ru/",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Воскресенск",
@@ -82,28 +83,16 @@
         "@type": "SellAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://techbase360.ru/#request",
+          "urlTemplate": "https://vskbase.ru/#request",
           "inLanguage": "ru"
         }
       },
       "priceRange": "По запросу"
     }
     </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "CommercialProperty",
-      "name": "TechBase360 — Дополнительная площадка",
-      "url": "https://techbase360.ru/",
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 55.3123,
-        "longitude": 38.7011
-      }
-    }
-    </script>
 
     <style>
+        /* Графитовая цветовая схема */
         :root {
             --graphite: #22252A;
             --graphite-light: #2E3239;
@@ -115,6 +104,7 @@
             --whatsapp: #25D366;
         }
         
+        /* Фон с геометрическими фигурами */
         body {
             background: 
                 linear-gradient(135deg, var(--graphite) 0%, var(--graphite-light) 100%),
@@ -130,73 +120,1055 @@
             flex-direction: column;
         }
 
-        /* Все остальные стили без изменений */
-        /* ... */
-        
+        /* Контейнеры */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Шапка */
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/header-bg.jpg') no-repeat center/cover;
+            color: white;
+            padding: 120px 0;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            font-size: clamp(1.8rem, 5vw, 2.8rem);
+            margin-bottom: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 1.2;
+        }
+        header p {
+            font-size: clamp(1rem, 2vw, 1.2rem);
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+
+        /* Навигация */
+        nav {
+            background: var(--graphite-light);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        nav li {
+            margin: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 18px 25px;
+            display: block;
+            transition: all 0.3s;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            white-space: nowrap;
+            position: relative;
+        }
+        nav a:hover {
+            background: var(--accent);
+        }
+        nav a i {
+            margin-right: 8px;
+        }
+        nav a.active {
+            background: rgba(255,255,255,0.1);
+        }
+        nav a.active:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--accent);
+        }
+
+        /* Карточки */
+        .card {
+            background: rgba(30, 33, 38, 0.8);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin-bottom: 30px;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+        }
+        .card h3 {
+            color: var(--accent);
+            margin-bottom: 20px;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        .card ul {
+            padding-left: 20px;
+        }
+        .card li {
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        .card strong {
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        /* Кнопки */
+        .btn {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            text-align: center;
+            min-width: 200px;
+        }
+        .btn:hover {
+            background: #e05a2b;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255,107,53,0.3);
+        }
+        .btn-secondary {
+            background: var(--graphite-light);
+            border: 1px solid var(--accent);
+        }
+        .btn-secondary:hover {
+            background: rgba(255,107,53,0.1);
+        }
+
+        /* WhatsApp кнопка */
         .whatsapp-btn {
             position: fixed;
             bottom: 70px;
             right: 30px;
             background: var(--whatsapp);
             color: white;
-            width: auto;
-            padding: 10px 15px;
-            border-radius: 30px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 16px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 60px;
+            font-size: 30px;
             box-shadow: 0 5px 20px rgba(37, 211, 102, 0.3);
             z-index: 1000;
             animation: pulse 2s infinite;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-        .whatsapp-btn svg {
-            width: 24px;
-            height: 24px;
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        .whatsapp-btn i {
+            font-size: 30px;
+        }
+
+        /* Форма */
+        #request-form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        #request-form input,
+        #request-form textarea,
+        #request-form select {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            color: white;
+            font-family: inherit;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        #request-form input:focus,
+        #request-form textarea:focus,
+        #request-form select:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        #request-form input::placeholder,
+        #request-form textarea::placeholder {
+            color: rgba(255,255,255,0.5);
+        }
+        #request-form button[type="submit"] {
+            width: 100%;
+        }
+
+        /* Раскрывающиеся блоки */
+        .expandable-section {
+            margin: 40px 0;
+        }
+        .expand-btn {
+            background: none;
+            border: none;
+            color: var(--accent);
+            text-align: left;
+            width: 100%;
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            cursor: pointer;
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 500;
+        }
+        .expand-btn:after {
+            content: '+';
+            font-size: 1.5rem;
+            transition: transform 0.3s;
+        }
+        .expand-btn.active:after {
+            content: '-';
+        }
+        .expand-content {
+            padding: 20px 0;
+            display: none;
+            animation: fadeIn 0.3s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Секции */
+        section {
+            padding: 80px 0;
+            position: relative;
+        }
+        .section-title {
+            font-size: clamp(1.8rem, 5vw, 2.3rem);
+            margin-bottom: 50px;
+            text-align: center;
+            color: var(--text-light);
+            position: relative;
+            font-weight: 700;
+        }
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background: var(--accent);
+        }
+
+        /* Грид-система */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Контакты */
+        .contacts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .contact-card {
+            text-align: center;
+            padding: 30px;
+            background: rgba(30, 33, 38, 0.5);
+            border-radius: 12px;
+            transition: transform 0.3s;
+        }
+        .contact-card:hover {
+            transform: translateY(-5px);
+        }
+        .contact-card i {
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+        .contact-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: var(--text-light);
+        }
+        .contact-card a {
+            color: var(--text);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .contact-card a:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+
+        /* Карта */
+        .map-container {
+            height: 400px;
+            width: 100%;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-top: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Футер */
+        footer {
+            background: var(--graphite-light);
+            padding: 30px 0;
+            text-align: center;
+            margin-top: auto;
+        }
+        footer p {
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.7);
+        }
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Хлебные крошки */
+        .breadcrumbs {
+            padding: 15px 0;
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.7);
+        }
+        .breadcrumbs a {
+            color: var(--text);
+            text-decoration: none;
+        }
+        .breadcrumbs a:hover {
+            text-decoration: underline;
+        }
+        .breadcrumbs span {
+            margin: 0 5px;
+        }
+
+        /* Лоадер */
+        .loader {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 9999;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .loader.active {
+            display: flex;
+        }
+        .loader-spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top-color: var(--accent);
+            animation: spin 1s ease-in-out infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .loader-text {
+            color: white;
+            margin-top: 20px;
+            font-size: 1.2rem;
+        }
+
+        /* Уведомления */
+        .notification {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--accent);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+            z-index: 1000;
+            display: none;
+            animation: slideUp 0.3s ease-out;
+        }
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateX(-50%) translateY(20px); }
+            to { opacity: 1; transform: translateX(-50%) translateY(0); }
+        }
+        .notification.show {
+            display: block;
+        }
+
+        /* Адаптивность */
+        @media (max-width: 992px) {
+            section {
+                padding: 60px 0;
+            }
+            .card {
+                padding: 25px;
+            }
+        }
+        @media (max-width: 768px) {
+            header {
+                padding: 80px 0;
+            }
+            nav ul {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            nav a {
+                padding: 12px 20px;
+                text-align: center;
+                white-space: normal;
+            }
+            nav a i {
+                margin-right: 0;
+                display: block;
+                margin-bottom: 5px;
+                font-size: 1.2rem;
+            }
+            .section-title {
+                margin-bottom: 30px;
+            }
+            .card {
+                padding: 20px;
+            }
+            .whatsapp-btn {
+                bottom: 20px;
+                right: 20px;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                font-size: 24px;
+            }
+            .contact-card {
+                padding: 20px;
+            }
+        }
+        @media (max-width: 480px) {
+            header {
+                padding: 60px 0;
+            }
+            header h1 {
+                font-size: 1.5rem;
+            }
+            header p {
+                font-size: 0.9rem;
+            }
+            .btn {
+                padding: 12px 20px;
+                min-width: auto;
+                width: 100%;
+            }
+            #request-form input,
+            #request-form textarea,
+            #request-form select {
+                padding: 12px;
+            }
+        }
+
+        /* Анимации */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+        .delay-1 {
+            animation-delay: 0.2s;
+        }
+        .delay-2 {
+            animation-delay: 0.4s;
+        }
+        .delay-3 {
+            animation-delay: 0.6s;
+        }
+
+        /* Доступность */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+        [aria-hidden="true"] {
+            display: none;
+        }
+
+        /* Оптимизация загрузки шрифтов */
+        .wf-loading {
+            visibility: hidden;
+        }
+        .wf-active {
+            visibility: visible;
         }
     </style>
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </noscript>
 </head>
 <body>
     <!-- WhatsApp кнопка -->
-    <a href="https://wa.me/+79999115020" class="whatsapp-btn" aria-label="WhatsApp" target="_blank">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="#fff">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335 .157 11.892c0 2.096 .547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-        </svg>
-        <span>Написать</span>
+    <a href="https://wa.me/+79999115020" class="whatsapp-btn" aria-label="Написать в WhatsApp" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
     </a>
 
-    <!-- Все остальные блоки без изменений -->
-    <!-- ... -->
-
-    <!-- Карта с точными координатами -->
-    <div class="map-container">
-        <iframe src="https://yandex.ru/map-widget/v1/?ll=38.6792,55.3187&z=16&mode=search&text=Воскресенск%2C%20ул.%20Центральная%2C%2036А"></iframe>
+    <!-- Лоадер -->
+    <div class="loader" id="page-loader">
+        <div class="loader-spinner"></div>
+        <div class="loader-text">Загрузка...</div>
     </div>
+
+    <!-- Уведомление -->
+    <div class="notification" id="notification"></div>
+
+    <!-- Шапка -->
+    <header id="home">
+        <div class="container animate">
+            <h1>ЛОГИСТИЧЕСКИЙ КОМПЛЕКС В ВОСКРЕСЕНСКЕ</h1>
+            <p>Продажа производственно-складского комплекса с развитой инфраструктурой и готовыми коммуникациями</p>
+            <a href="#request" class="btn">Оставить заявку</a>
+        </div>
+    </header>
+
+    <!-- Навигация -->
+    <nav>
+        <ul>
+            <li><a href="https://voskresensk.cian.ru/sale/commercial/318573849" target="_blank" rel="noopener noreferrer" style="background: var(--cian); margin-right: auto;">
+                <i class="fas fa-building" aria-hidden="true"></i> <span>ЦИАН</span>
+            </a></li>
+            
+            <li><a href="#about" class="active">О комплексе</a></li>
+            <li><a href="#features">Характеристики</a></li>
+            <li><a href="#location">Локация</a></li>
+            <li><a href="#infrastructure">Инфраструктура</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+            
+            <li><a href="https://www.avito.ru/voskresensk/kommercheskaya_nedvizhimost/prombaza._ofis._skladskoy_terminal_7378848302" target="_blank" rel="noopener noreferrer" style="background: var(--avito); margin-left: auto;">
+                <i class="fas fa-home" aria-hidden="true"></i> <span>АВИТО</span>
+            </a></li>
+        </ul>
+    </nav>
+
+    <!-- Хлебные крошки -->
+    <div class="container breadcrumbs">
+        <a href="/">Главная</a>
+        <span>/</span>
+        <span>Логистический комплекс в Воскресенске</span>
+    </div>
+
+    <!-- О комплексе -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title animate">О комплексе</h2>
+            <div class="grid">
+                <div class="card animate delay-1">
+                    <h3>Основные параметры</h3>
+                    <ul>
+                        <li><strong>Общая площадь:</strong> 2020 м²</li>
+                        <li><strong>Застройка:</strong> 640 м²</li>
+                        <li><strong>Свободная площадь:</strong> 1378 м²</li>
+                        <li><strong>Проезды/инфраструктура:</strong> 202 м²</li>
+                        <li><strong>Высота потолков:</strong> 4-4.5 м</li>
+                        <li><strong>Нагрузка на пол:</strong> до 5 т/м²</li>
+                    </ul>
+                </div>
+                <div class="card animate delay-2">
+                    <h3>Состав комплекса</h3>
+                    <ul>
+                        <li><strong>Офисно-бытовой модуль:</strong> 160 м²</li>
+                        <li><strong>Производственно-складской блок:</strong> 240 м²</li>
+                        <li><strong>Парковочная зона:</strong> 1100 м²</li>
+                        <li><strong>Навес:</strong> 43.6 м²</li>
+                        <li><strong>Недостроенный ангар:</strong> потенциал расширения</li>
+                        <li><strong>Гараж:</strong> 25 м² с ямой</li>
+                    </ul>
+                </div>
+                <div class="card animate delay-3">
+                    <h3>Коммуникации</h3>
+                    <ul>
+                        <li><strong>Электричество:</strong> 100 кВт (масштабируемо)</li>
+                        <li><strong>Газ:</strong> труба ø200 мм</li>
+                        <li><strong>Водоснабжение:</strong> скважина</li>
+                        <li><strong>Канализация:</strong> центральная</li>
+                        <li><strong>Отопление:</strong> автономное</li>
+                        <li><strong>Охрана:</strong> забор, видеонаблюдение</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Характеристики -->
+    <section id="features">
+        <div class="container">
+            <h2 class="section-title animate">Технические характеристики</h2>
+            <div class="grid">
+                <div class="card animate delay-1">
+                    <h3>Производственный блок</h3>
+                    <ul>
+                        <li>3 изолированных бокса с воротами 3.6×3 м</li>
+                        <li>Металлокаркас с кирпичными колоннами</li>
+                        <li>Односкатная кровля с гидроизоляцией</li>
+                        <li>Бетонный пол, нагрузка 5 т/м²</li>
+                        <li>Электричество и отопление</li>
+                        <li>Подходит для производства, склада, СТО</li>
+                    </ul>
+                </div>
+                <div class="card animate delay-2">
+                    <h3>Офисный модуль</h3>
+                    <ul>
+                        <li><strong>1 этаж:</strong> общежитие (6 мест), кухня, душ</li>
+                        <li><strong>2 этаж:</strong> 2 офиса по 30 м²</li>
+                        <li>Пластиковые окна, ламинат</li>
+                        <li>Радиаторы отопления</li>
+                        <li>Электрические щиты</li>
+                        <li>Примыкающий гараж 25 м²</li>
+                    </ul>
+                </div>
+                <div class="card animate delay-3">
+                    <h3>Территория</h3>
+                    <ul>
+                        <li>Асфальтированные площадки</li>
+                        <li>Сквозной проезд для фур</li>
+                        <li>Ширина проездов: 6 м</li>
+                        <li>Радиус разворота: 15 м</li>
+                        <li>Макс. нагрузка: 20 т</li>
+                        <li>Хвойные деревья по периметру</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Локация -->
+    <section id="location">
+        <div class="container">
+            <h2 class="section-title animate">Локация</h2>
+            <div class="card animate">
+                <h3>Транспортная доступность</h3>
+                <ul>
+                    <li><strong>Трасса М-5 "Урал":</strong> 5 минут</li>
+                    <li><strong>Склады Wildberries/Ozon:</strong> 10 км</li>
+                    <li><strong>Ж/д станция "Воскресенск":</strong> 7 км</li>
+                    <li><strong>МКАД:</strong> 80 км</li>
+                </ul>
+                
+                <div class="map-container">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9a0a3d6a4c4d1f9e8e3e1a0a3d6a4c4d1f9e8e3e1a0a3d6a4c4d1f9e8e3e1&amp;source=constructor" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Инфраструктура -->
+    <section id="infrastructure">
+        <div class="container">
+            <h2 class="section-title animate">Инфраструктура</h2>
+            <div class="card animate">
+                <h3>В радиусе 3 км</h3>
+                <ul>
+                    <li>Автозаправки (Лукойл, Роснефть)</li>
+                    <li>Кафе и столовые</li>
+                    <li>Магазины строительных материалов</li>
+                    <li>Автосервисы</li>
+                    <li>Жилые кварталы для аренды жилья сотрудникам</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Раскрывающиеся блоки с поисковыми запросами -->
+    <section class="container">
+        <div class="card animate">
+            <h3 style="color: var(--accent); margin-bottom: 30px;">Возможно вы искали:</h3>
+            
+            <div class="expandable-section">
+                <button class="expand-btn">Перевалочная база</button>
+                <div class="expand-content">
+                    <p>Комплекс идеально подходит для организации перевалочного пункта грузов с удобной логистикой к трассе М-5 "Урал" и складам Wildberries/Ozon.</p>
+                </div>
+            </div>
+            
+            <div class="expandable-section">
+                <button class="expand-btn">Логистический парк</button>
+                <div class="expand-content">
+                    <p>Площадка оборудована для стоянки и маневрирования большегрузов с радиусом разворота 15 м и нагрузкой до 20 тонн.</p>
+                </div>
+            </div>
+            
+            <div class="expandable-section">
+                <button class="expand-btn">Производственная площадка</button>
+                <div class="expand-content">
+                    <p>Готовые цеха с высотой потолков 4.5 м и нагрузкой на пол 5 т/м², подключением 100 кВт электроэнергии.</p>
+                </div>
+            </div>
+            
+            <div class="expandable-section">
+                <button class="expand-btn">Складской терминал</button>
+                <div class="expand-content">
+                    <p>Помещения с контролем температуры и влажности, возможностью организации зон хранения разных категорий товаров.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма заявки -->
+    <section id="request" style="padding-top: 0;">
+        <div class="container">
+            <div class="card animate">
+                <h2 class="section-title" style="margin-bottom: 30px;">Оставить заявку</h2>
+                <form id="request-form" action="https://formsubmit.co/info@vskbase.ru" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://vskbase.ru/thanks.html">
+                    <input type="hidden" name="_subject" value="Новая заявка с сайта VSKbase">
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                    <input type="tel" name="phone" placeholder="Телефон" id="phone-input" required>
+                    <input type="email" name="email" placeholder="Email (необязательно)">
+                    <select name="interest">
+                        <option value="" disabled selected>Выберите интересующий вопрос</option>
+                        <option value="buy">Покупка комплекса</option>
+                        <option value="rent">Аренда помещений</option>
+                        <option value="tour">Организация просмотра</option>
+                        <option value="other">Другое</option>
+                    </select>
+                    <textarea name="message" rows="5" placeholder="Ваш вопрос или комментарий"></textarea>
+                    <div style="margin-bottom: 20px;">
+                        <input type="checkbox" id="consent" name="consent" required style="width: auto; display: inline-block; margin-right: 10px;">
+                        <label for="consent" style="display: inline-block; width: calc(100% - 30px); font-size: 0.9rem;">
+                            Я согласен на обработку персональных данных в соответствии с <a href="/privacy" style="color: var(--accent);">политикой конфиденциальности</a>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contacts">
+        <div class="container">
+            <h2 class="section-title animate">Контакты</h2>
+            <div class="contacts-grid">
+                <div class="contact-card animate delay-1">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Телефон</h3>
+                    <p><a href="tel:+79999115020">+7 (999) 911-50-20</a></p>
+                </div>
+                <div class="contact-card animate delay-2">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp</h3>
+                    <p><a href="https://wa.me/+79999115020" target="_blank" rel="noopener noreferrer">Написать в WhatsApp</a></p>
+                </div>
+                <div class="contact-card animate delay-3">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@vskbase.ru">info@vskbase.ru</a></p>
+                </div>
+            </div>
+            
+            <div class="card animate" style="margin-top: 30px;">
+                <h3>Адрес комплекса</h3>
+                <p><i class="fas fa-map-marker-alt" style="color: var(--accent); margin-right: 10px;"></i> Московская область, г. Воскресенск, мкр-н Лопатинский, ул. Центральная, стр. 36А</p>
+                
+                <div class="map-container" style="margin-top: 20px;">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9a0a3d6a4c4d1f9e8e3e1a0a3d6a4c4d1f9e8e3e1a0a3d6a4c4d1f9e8e3e1&amp;source=constructor" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Футер -->
     <footer>
         <div class="container">
-            <p>© 2024 TechBase360 — Логистический комплекс в Воскресенске</p>
-            <p><a href="#privacy">Политика конфиденциальности</a> | <a href="#terms">Условия использования</a></p>
-            <div class="breadcrumbs" style="margin-top:15px;font-size:0.8rem;color:#999;">
-                <a href="/">Главная</a> / <span>Логистический комплекс</span>
-            </div>
+            <p>© 2024 VSKbase — Логистический комплекс в Воскресенске. Все права защищены.</p>
+            <p><a href="/privacy">Политика конфиденциальности</a> | <a href="/terms">Условия использования</a></p>
+            <p style="margin-top: 20px; font-size: 0.8rem; color: rgba(255,255,255,0.5);">
+                ИНН: 1234567890 | ОГРН: 1234567890123
+            </p>
         </div>
     </footer>
 
     <!-- Скрытый SEO-блок -->
-    <div aria-hidden="true" style="position:absolute;left:-9999px">
+    <div aria-hidden="true" style="position: absolute; left: -9999px; top: 0; width: 1px; height: 1px; overflow: hidden;">
+        <h1>Логистический комплекс в Воскресенске</h1>
+        <p>Купить логистический комплекс в Воскресенске. Промбаза с офисом и охраняемой территорией. Площадь 2020 м², высота потолков 4.5 м, нагрузка на пол 5 т/м². Близко к трассе М-5 "Урал", 10 км до складов Wildberries и Ozon.</p>
+        <h2>Логистический комплекс город Воскресенск</h2>
         <h3>Поисковые запросы:</h3>
         <ul>
-            <li>аренда склада с офисом Воскресенск</li>
-            <li>купить промбазу для Wildberries</li>
-            <li>готовые склады под маркетплейсы</li>
+            <li>купить промбазу в Воскресенске</li>
+            <li>складские помещения Воскресенск</li>
+            <li>производственные площади Московская область</li>
+            <li>логистический комплекс купить</li>
+            <li>аренда склада с офисом</li>
+            <li>перевалочная база Воскресенск</li>
+            <li>складской терминал Московская область</li>
         </ul>
     </div>
 
-    <!-- Все скрипты без изменений -->
     <script>
-        // ...
+        // Проверка поддержки современных возможностей
+        const supportsIntersectionObserver = 'IntersectionObserver' in window;
+        const supportsSmoothScroll = 'scrollBehavior' in document.documentElement.style;
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            // Скрываем лоадер после загрузки
+            setTimeout(() => {
+                document.getElementById('page-loader').classList.remove('active');
+            }, 500);
+            
+            // Автоподстановка +7 в телефон
+            const phoneInput = document.getElementById('phone-input');
+            if (phoneInput) {
+                phoneInput.addEventListener('input', function(e) {
+                    if (!this.value.startsWith('+7') && this.value.length > 0) {
+                        this.value = '+7' + this.value.replace(/^\+7/, '');
+                    }
+                });
+            }
+            
+            // Раскрывающиеся блоки
+            document.querySelectorAll('.expand-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    this.classList.toggle('active');
+                    const content = this.nextElementSibling;
+                    if (content) {
+                        content.style.display = content.style.display === 'block' ? 'none' : 'block';
+                    }
+                });
+            });
+            
+            // Плавная прокрутка
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        e.preventDefault();
+                        
+                        if (supportsSmoothScroll) {
+                            targetElement.scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start'
+                            });
+                        } else {
+                            // Полифил для плавной прокрутки
+                            const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - 100;
+                            window.scrollTo({
+                                top: targetPosition,
+                                behavior: 'smooth'
+                            });
+                        }
+                        
+                        // Обновляем активный пункт меню
+                        document.querySelectorAll('nav a').forEach(link => {
+                            link.classList.remove('active');
+                        });
+                        this.classList.add('active');
+                    }
+                });
+            });
+            
+            // Отслеживание скролла для подсветки меню
+            if (supportsIntersectionObserver) {
+                const sections = document.querySelectorAll('section');
+                const navLinks = document.querySelectorAll('nav a[href^="#"]');
+                
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const id = entry.target.getAttribute('id');
+                            navLinks.forEach(link => {
+                                link.classList.remove('active');
+                                if (link.getAttribute('href') === `#${id}`) {
+                                    link.classList.add('active');
+                                }
+                            });
+                        }
+                    });
+                }, { threshold: 0.5 });
+                
+                sections.forEach(section => {
+                    observer.observe(section);
+                });
+            }
+            
+            // Анимации при скролле
+            if (supportsIntersectionObserver) {
+                const animateElements = document.querySelectorAll('.animate');
+                
+                const animationObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.style.opacity = 1;
+                            entry.target.style.transform = 'translateY(0)';
+                        }
+                    });
+                }, { threshold: 0.1 });
+                
+                animateElements.forEach(element => {
+                    element.style.opacity = 0;
+                    element.style.transform = 'translateY(20px)';
+                    element.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+                    animationObserver.observe(element);
+                });
+            }
+            
+            // Обработка формы
+            const form = document.getElementById('request-form');
+            if (form) {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const notification = document.getElementById('notification');
+                    notification.textContent = 'Отправка данных...';
+                    notification.classList.add('show');
+                    
+                    const formData = new FormData(this);
+                    
+                    fetch(this.action, {
+                        method: 'POST',
+                        body: formData,
+                        headers: {
+                            'Accept': 'application/json'
+                        }
+                    })
+                    .then(response => {
+                        if (response.ok) {
+                            notification.textContent = 'Заявка отправлена! Мы свяжемся с вами в ближайшее время.';
+                            setTimeout(() => {
+                                window.location.href = this.querySelector('input[name="_next"]').value;
+                            }, 2000);
+                        } else {
+                            throw new Error('Ошибка отправки формы');
+                        }
+                    })
+                    .catch(error => {
+                        notification.textContent = 'Ошибка отправки. Пожалуйста, попробуйте позже или свяжитесь по телефону.';
+                        console.error('Form submission error:', error);
+                    })
+                    .finally(() => {
+                        setTimeout(() => {
+                            notification.classList.remove('show');
+                        }, 5000);
+                    });
+                });
+            }
+            
+            // Загрузка JSON данных
+            fetch('/data.json')
+                .then(response => {
+                    if (!response.ok) throw new Error('Network response was not ok');
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Данные объекта:', data);
+                    // Можно динамически обновлять контент на странице
+                })
+                .catch(error => console.error('Ошибка загрузки данных:', error));
+            
+            // Оптимизация загрузки шрифтов
+            if (document.fonts) {
+                document.documentElement.classList.add('wf-loading');
+                document.fonts.ready.then(function() {
+                    document.documentElement.classList.remove('wf-loading');
+                    document.documentElement.classList.add('wf-active');
+                });
+            }
+        });
+        
+        // Service Worker для оффлайн-режима
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/sw.js').then(function(registration) {
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function(err) {
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+        
+        // Отправка данных в Google Analytics
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX'); // Замените на ваш ID Google Analytics
     </script>
-</body>
-</html>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    
+    <!-- Yandex.Metrika -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+        
+        ym(XXXXXX, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/XXXXXX" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
